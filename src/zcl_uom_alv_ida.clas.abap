@@ -52,7 +52,7 @@ CLASS zcl_uom_alv_ida DEFINITION PUBLIC FINAL CREATE PRIVATE.
       IMPORTING
         row_object       TYPE REF TO if_salv_gui_row_data_ida
       RETURNING
-        VALUE(rs_result) TYPE zc_variants_overview.
+        VALUE(rs_result) TYPE zb_uom.
 
     METHODS add_buttons_to_toolbar.
 
